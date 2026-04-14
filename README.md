@@ -4,48 +4,40 @@
   <img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
 
 </p>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 # VC Mic Booster Userbot
 
 Real-time voice boost for Telegram VC (150-200dB)
 
+## Setup
 1. Get SESSION from: `https://my.telegram.org`
 2. Edit `config.py` or `.env`
 3. `docker-compose up -d`
-<img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
 
 ## Commands
 - `.boost 123456789` - Boost specific user
 - `.unboost 123456789` - Stop boost
 - `.status` - Check status
-<img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
 
 - ## VPS DEVELOPMENT GUIDE
 - # 1. Clone & Setup
 git clone YOUR_GITHUB_REPO_URL
 cd vc-mic-booster
-<img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
 
 # 2. Edit config
 nano config.py  # Add SESSION, API_ID, API_HASH
-<img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
 
 # 3. Docker Install
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 systemctl start docker
-<img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
 
 # 4. Deploy
 docker-compose up -d
-<img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
 
 # 5. Check
 docker ps
 docker logs vc-mic-booster
-<img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
-
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
