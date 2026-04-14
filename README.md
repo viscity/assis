@@ -9,9 +9,7 @@
 # VC Mic Booster Userbot
 
 Real-time voice boost for Telegram VC (150-200dB)
-<img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
 
-## Setup
 1. Get SESSION from: `https://my.telegram.org`
 2. Edit `config.py` or `.env`
 3. `docker-compose up -d`
